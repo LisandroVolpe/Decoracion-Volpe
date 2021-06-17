@@ -1,7 +1,9 @@
 import react from 'react'
+import CartWidget from './CartWidget/CartWidget'
 
 function NavBar() {
     return <>
+	<CartWidget/>
         <nav>
 			<ul style={{listStyle: 'none'}}>
 				<li><a href="">Home</a></li>
@@ -10,7 +12,7 @@ function NavBar() {
 				<li><a href="">Contacto</a></li>
 			</ul>
 		</nav>
-     </>;
+     </>
 }
 
 
